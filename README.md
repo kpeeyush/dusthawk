@@ -13,3 +13,5 @@ Real Time Mass Flow Controller and Data Logger for PM 2.5 Sampling
 * PTC for circuit protection
 * USB Protection ESD + PWREN
 * Valve temperatrue sensor
+* Add LED for LED relay
+* SMD transistors
