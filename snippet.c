@@ -1,5 +1,6 @@
 
 osi_EnterCritical();
+
 for (i = 0; i < len; i++)
 {
 	if (i & 1)
@@ -13,4 +14,5 @@ for (i = 0; i < len; i++)
 		osi_Busywait(irdata[i]);
 	}
 }
+
 osi_ExitCritical(0);
